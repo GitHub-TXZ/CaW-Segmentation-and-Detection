@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="txz@122.207.108.4:11100 password" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="nb">
+        <serverdata>
+          <mappings>
+            <mapping deploy="PSI-Seg" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="txz@122.207.108.4:11100 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/txz/PSI-Seg" local="$PROJECT_DIR$" />
+            <mapping deploy="/home/txz/github_code" local="$PROJECT_DIR$/../../Github_forked_code" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="txz@122.207.108.4:16000 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/Pycharm_Project" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/pytorch-UNet" local="$PROJECT_DIR$/../../CTA_Analyze/pytorch-UNet" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
