@@ -35,7 +35,9 @@ pip install torch==2.0.0+cu117 torchvision==0.15.1+cu117 torchaudio==2.0.1 --ind
 
 ### The Linux executable program runs as follows:
 Download and extract dist_linux.rar
+
 ![image](assets/l_run.png)
+
 Then execute the following command:
 ```bash 
 chmod 777 dist_linux
