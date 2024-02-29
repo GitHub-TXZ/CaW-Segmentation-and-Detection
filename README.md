@@ -48,19 +48,27 @@ Download and extract dist_windows.rar
 
 The software opening interface is as shown in the figure below. Browse the corresponding input and output folders. Be careful not to have Chinese characters in the path. Click predict to start working.
 ![image](assets/menu.png)
+
 As shown in the figure below, the front-end GUI interface may become unresponsive due to hardware configuration issues, full memory or multi-threading issues. I tested it on high-performance Ubuntu without any problems, but I experienced unresponsiveness on my personal windows. At this time, you can wait patiently for the program to finish executing in the background. Do not close the background console window. The two progress bars represent the two files being predicted.
+
 ![image](assets/problem.png)
+
 The interface after normal execution is as shown below.
+
 ![image](assets/normal.png)
+
 As shown in the figure below, my input directory is E:\Master's Code\nnUNet_raw\Dataset138_CaW\imagesTs (choose independently), and there are multiple nii.gz files in the directory. My example here is two files that need to be predicted. The output directory is my newly created predictions directory (preferably an empty directory).
+
 ![image](assets/in.png)
 ![image](assets/in2.png)
 
 After executing the program (it may take a long time, covering pre-processing, prediction test enhancement, post-processing and other operations, if necessary, I can expose more interface parameters to adjust the running time), as shown below, generated Two corresponding prediction results and a carotid web detection document are obtained.
 Taking the case qc17_msk_0000.nii.gz as an example, the first and second pictures below represent the results of our method and the results marked by doctors respectively. The color does not correspond completely because the doctor divides the voxel labeling into left and right. This case was bilateral CaW. The test results showed that both cases had carotid web, which was consistent with the conclusion given by the doctor's label.
+
 ![image](assets/res1.png)
 ![image](assets/res2.png)
 ![image](assets/res3.png)
 
 As shown in the figure below, if a new sample is added to the test, you only need to copy the new sample to the originally selected input directory, and the software will automatically detect which files have not yet been predicted.
+
 ![image](assets/dont_repeat.png)
